@@ -4,10 +4,13 @@ muy buen ejercicio'''
 
 
 def max(a,b):
-    if a < b:
-        return b
-    if b < a:
-        return a
-print(max(100,101))
+    if a == b:
+        return "Los numeros son iguales"
+    else:
+        if a < b:
+            return b
+        if b < a:
+            return a
+print(max(2,4))
 
 
