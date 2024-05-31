@@ -9,9 +9,10 @@ def lenght(a):
         for i in a:
             cont +=1
         return cont
-    a= ''.join(a.split())
-    for i in a:
-        cont +=1
-    return cont
-a=lenght("[1,2,3,4,5,6,7,8,9,10,11,12,13]")
-print(a)
+    else:
+        a= ''.join(a.split())
+        for i in a:
+            cont +=1
+        return cont
+a=lenght([100,20,30,40])
+print(a)    
